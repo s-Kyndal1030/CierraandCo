@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cierra & Co.</title>
+    <link rel="stylesheet" href="boutique.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cierra & Co.</h1>
+        <p>Contact Us. We would love to hear from you!</p>
+    </header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about-us.html">About Us</a>
+    <a href="our-closet.html">Our Closet</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+    <section class="contact-info">
+       <h2>Contact Information</h2>
+       <p>If you have any questions or need assistance, feel free to contact us through any of the following ways:</p>
+
+       <h3>Our Locations:</h3>
+          <div class="location">
+            <h4>Location 1: Downtown Tampa</h4>
+              <ul>
+                <li><strong>Email:</strong> <a href="mailto:info@cierraandco.com">Tampainfo@cierraandco.com</a></li>
+                <li><strong>Phone:</strong>(813)338-1813</li>
+                <li><strong>Address:</strong> 123 Waters St. Tampa, FL, 33602
+                <li><strong>Business Hours:</strong> Monday - Friday: 10:00 AM - 6:00 PM, Saturday: 11:00 AM - 5:00 PM, Sunday: Closed</li>
+              </ul>
+          </div>
+          
+          <div class="location">
+            <h4>Location 2: Downtown Los Angeles</h4>
+              <ul>
+                <li><strong>Email:</strong> <a href="mailto:info@cierraandco.com">LosAngelesinfo@cierraandco.com</a></li>
+                <li><strong>Phone:</strong>(213)312-3211
+                <li><strong>Address:</strong> 456 Hollywood Blvd. Los Angeles, CA, 90001
+                <li><strong>Business Hours:</strong> Monday - Friday: 10:00 AM - 6:00 PM, Saturday: 11:00 AM - 5:00 PM, Sunday: Closed</li>
+              </ul>
+          </div>
+
+          <div class="location">
+            <h4>Location 3: New York City</h4>
+              <ul>
+                <li><strong>Email:</strong> <a href="mailto:info@cierraandco.com">NewYorkinfo@cierraandco.com</a></li>
+                <li><strong>Phone:</strong>(646)464-4464
+                <li><strong>Address:</strong> 789 Main Street,New York, NY, 07008
+                <li><strong>Business Hours:</strong> Monday - Friday: 10:00 AM - 6:00 PM, Saturday: 11:00 AM - 5:00 PM, Sunday: Closed</li>
+              </ul>
+       </div>
+    </section>
+
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <p>Have a question or want to leave us feedback? Fill out the form below, and we'll get back to you as soon as possible!</p>
+       
+        <form action="/submit_contact_form" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <p>&copy; 2025 Cierra & Co. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
